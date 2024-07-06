@@ -41,6 +41,6 @@ def extract_resume_data(pdf_path):
     return resume_data
 
 if __name__ == "__main__":
-    pdf_path = "resumehaveloc.pdf"  # Path to your resume PDF
+    pdf_path = "resumehaveloc.pdf"  
     resume_data = extract_resume_data(pdf_path)
     print(resume_data)
